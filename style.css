@@ -1,0 +1,13 @@
+body {
+    background-image: linear-gradient(to right, red , yellow);
+}
+
+.header-container {
+    display: flex;
+    background-color: burlywood;
+    border-radius: 2%;
+    h2 {
+        margin: 2%;
+
+    }
+}
