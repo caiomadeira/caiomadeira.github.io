@@ -4,8 +4,7 @@
     <title>Caio Madeira</title>
     <link>https://caiomadeira.github.io/</link>
     <description>Recent content on Caio Madeira</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://caiomadeira.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://caiomadeira.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
