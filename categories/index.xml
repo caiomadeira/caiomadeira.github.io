@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -11,6 +10,3 @@
     <webMaster>caiomadeira@example.com (caio madeira)</webMaster><atom:link href="https://caiomadeira.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
-=======
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on caio madeira</title><link>https://caiomadeira.github.io/categories/</link><description>Recent content in Categories on caio madeira</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><managingEditor>caiomadeira@example.com (caio madeira)</managingEditor><webMaster>caiomadeira@example.com (caio madeira)</webMaster><atom:link href="https://caiomadeira.github.io/categories/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
->>>>>>> 1670511d6967bc476ba61160064334136ebcbfbe
