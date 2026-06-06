@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -22,3 +23,6 @@
     
   </channel>
 </rss>
+=======
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mods on caio madeira</title><link>https://caiomadeira.github.io/mods/</link><description>Recent content in Mods on caio madeira</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><managingEditor>caiomadeira@example.com (caio madeira)</managingEditor><webMaster>caiomadeira@example.com (caio madeira)</webMaster><lastBuildDate>Wed, 02 Jul 2025 21:01:51 -0300</lastBuildDate><atom:link href="https://caiomadeira.github.io/mods/index.xml" rel="self" type="application/rss+xml"/><item><title>Test</title><link>https://caiomadeira.github.io/mods/psp/</link><pubDate>Wed, 02 Jul 2025 21:01:51 -0300</pubDate><author>caiomadeira@example.com (caio madeira)</author><guid>https://caiomadeira.github.io/mods/psp/</guid><description>&lt;h1 id="test"&gt;Test&lt;/h1&gt;</description></item></channel></rss>
+>>>>>>> 1670511d6967bc476ba61160064334136ebcbfbe
