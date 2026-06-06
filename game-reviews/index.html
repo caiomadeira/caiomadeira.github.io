@@ -134,40 +134,95 @@ stroke-linejoin="round" class="feather feather-home">
         </div>
     </nav>
 </div>
+
 <div class="wrapper list-page">
     <header class="header">
         <h1 class="header-title center">Game-Reviews</h1>
     </header>
+    
     <main class="page-content" aria-label="Content">
-        
-        
-        <h2 class="post-year">2026</h2>
-
-        
-
-        
-
-        <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/game-reviews/test/">Test</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="2026-06-06T02:17:26-0300">
-        6  2026
-        
-    </time>
-</article>
-
-
-         
-
-         
-
+        <div class="reviews-grid">
+            
+            <a href="https://caiomadeira.github.io/game-reviews/test/" class="review-card">
+                
+                
+                    <img src="/img/reviews/gtalcs-1.png" alt="Test" class="review-image">
+                
+                
+                <div class="review-info">
+                    <h3 class="review-title">Test</h3>
+                    <time class="review-date" datetime="2026-06-06T02:17:26-03:00">
+                        06 Jun 2026
+                    </time>
+                </div>
+            </a>
+            
+        </div>
     </main>
-</div><footer class="footer">
+</div>
+
+<style>
+    .reviews-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 24px;
+        margin-top: 2rem;
+    }
+    .review-card {
+        display: flex;
+        flex-direction: column;
+        background: #1a1b1e;
+        border: 1px solid #333;
+        border-radius: 8px;
+        overflow: hidden;
+        text-decoration: none !important;
+        color: inherit;
+        transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .review-card:hover {
+        transform: translateY(-5px);
+        border-color: #666;
+    }
+    .review-image {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+        border-bottom: 1px solid #333;
+    }
+    .review-image-placeholder {
+        width: 100%;
+        height: 160px;
+        background: #2a2b2e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #777;
+        font-size: 0.9rem;
+        border-bottom: 1px solid #333;
+    }
+    .review-info {
+        padding: 16px;
+    }
+    .review-title {
+        margin: 0 0 8px 0;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #fff;
+    }
+    .review-date {
+        margin: 0;
+        font-size: 0.85rem;
+        color: #888;
+    }
+    
+    html.light .review-card {
+        background: #fff;
+        border-color: #e5e5e5;
+    }
+    html.light .review-title { color: #222; }
+    html.light .review-image-placeholder { background: #f0f0f0; border-bottom-color: #e5e5e5; }
+</style>
+<footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 
